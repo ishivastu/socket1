@@ -3,7 +3,7 @@ const button = document.getElementById("button");
 const input = document.getElementById("input");
 const messages = document.getElementById("messages");
 
-const socket = io("http://localhost:8000");
+const socket = io("https://socket1-2s32.onrender.com");
 
 socket.emit("join-room", "room123");
 
